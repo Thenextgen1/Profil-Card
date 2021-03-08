@@ -103,3 +103,12 @@ p {
     text-align: center;
     padding-top: 10px;
 }
+span {
+    font-size: 1.0em;
+}
+
+@media(max-width: 375px) {
+    body {
+        background-size: 220px 460px;
+    }
+}
