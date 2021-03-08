@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+:root {
+    --dark-cyan: hsl(185, 75%, 39%);
+--very-dark-desaturated-blue: hsl(229, 23%, 23%);
+--dark-grayish-blue: hsl(227, 10%, 46%);
+--dark-gray: hsl(0, 0%, 59%);
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px; 
+ background-color: var(--dark-cyan);
+ background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+ background-repeat: no-repeat, no-repeat;
+ background-size: 680px 500px, 680px 500px;
+ background-position: left, bottom;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+img {
+    width: 70px;
+    border-radius: 40px; 
+}
+.img-card {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
+
+li {
+    list-style-type: none;
+}
+.profile-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url(images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-size: 360px 120px;
+    background-color: #fff;
+    width: 320px;
+    height: 320px;
+    border-radius: 12px;
+
+}
+.profile-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile-footer-cont li {
+    display: inline-block;
+    padding-top: 30px;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.profile-footer-cont li:nth-of-type(2) {
+    text-align: center;
+    /* padding-left: 50px; */
+}
+
+
+.profile-footerii {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-footer-cont1 li {
+    display: inline-block;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-left: 10px;
+    font-size: 13px;
+    letter-spacing: 2px;
+
+}
+.profile-category {
+   display: flex;
+   justify-content: center;
+    align-items: center
+}
+
+.profile-card-container {
+display: flex;
+align-items: center;
+flex-direction: column;
+padding-top: 90px;
+
+}
+h1 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+p {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+}
