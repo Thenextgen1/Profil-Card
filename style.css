@@ -10,10 +10,15 @@ body {
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px; 
  background-color: var(--dark-cyan);
- background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+ /* background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
  background-repeat: no-repeat, no-repeat;
  background-size: 680px 500px, 680px 500px;
- background-position: left, bottom;
+ background-position: left, bottom; */
+ background-image: url(images/bg-pattern-top.svg),
+    url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-attachment: fixed, fixed;
+  background-position: -65% 205%, 120% -195%;
 }
 * {
     margin: 0;
